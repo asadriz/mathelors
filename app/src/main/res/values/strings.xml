@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mathlers</string>
+    <string name="username">USERNAME</string>
+    <string name="pass">PASSWORD</string>
+    <string name="ok">Access Granted</string>
+
+</resources>

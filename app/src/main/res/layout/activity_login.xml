@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.venturedive.mathlers.LoginActivity">
+
+   <ImageView
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_marginTop="100dp"
+       android:layout_centerHorizontal="true"
+       android:background="@drawable/mathlerslogo"
+      android:id="@+id/logoimg"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/logintext"
+        android:layout_below="@+id/logoimg"/>
+
+    <EditText
+        android:id="@+id/edusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/logintext"
+        android:hint="enter Username"/>
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pass"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Passtext"
+        android:layout_below="@+id/edusername"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/Passtext"
+        android:hint="enter Password"/>
+
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_below="@+id/edPassword"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        />
+
+
+</RelativeLayout>
